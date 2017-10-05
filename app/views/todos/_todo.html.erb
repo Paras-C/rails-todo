@@ -1,0 +1,7 @@
+<form action="">
+<h2><strong><%= todo.todo_item %></strong> <input type="checkbox"></h2>
+<br>
+  <%= link_to "Show", todo if action_name == "index" %> 
+  <%= link_to "Edit", edit_todo_path(todo) %>
+  <%= link_to "Delete", todo_path(todo), method: :delete, data: { confirm: "Are you sure?" } %>
+</form><br>
