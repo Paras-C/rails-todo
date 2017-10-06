@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+
+body{
+
+  background-color: #9b181f;
+}
+
+.todoList{
+  display: table;
+  margin: 0 auto;
+  color: white;
+}
+
+#options{
+  text-align: center;
+  background-color: white;
+}
+
+
+
+
+
